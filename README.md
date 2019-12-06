@@ -18,3 +18,12 @@ $ git banch -D NOME_DA_BRANCH
 
 ### Lista as branch's criadas   
 $ git branch   
+
+### Retira arquivo do commit   
+$ git reset HEAD NOME_DO_ARQUIVO   
+
+### Edita mensagem do commit
+$ git commit --amend
+
+### Vê as modificações no arquivo
+$ git diff NOME_DO_ARQUIVO
